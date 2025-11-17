@@ -1,5 +1,5 @@
 from mcp.server.fastmcp.server import stdio_server
-from weather import mcp
+from tools import mcp
 
 def main():
     stdio_server(mcp)
