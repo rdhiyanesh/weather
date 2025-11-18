@@ -5,5 +5,5 @@ def main():
     stdio_server(mcp)
 
 if __name__ == "__main__":
-    main()  
+    mcp.run(transport="streamable-http")  
 
